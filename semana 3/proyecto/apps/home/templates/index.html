@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
+  <meta charset="UTF-8">
+  <title>Pagina Principal</title>
+</head>
+<body>
+  <h1>Este es el main de la pagina</h1>
+  <h3>{{ variable }}</h3>
+  <ul>
+    {% if user %}
+    {% for n in lista %}
+      <li> {{ n }}</li>
+    {% endfor %}
+    {% endif %}
+  </ul>
+</body>
+</html>
