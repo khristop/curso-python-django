@@ -1,0 +1,14 @@
+MODULES_MANAGER_V2
+Prestamos.__init__|/home/python/workspace/curso-python-django/semana 4/workspace/Prestamos/Prestamos/__init__.py
+Prestamos.settings|/home/python/workspace/curso-python-django/semana 4/workspace/Prestamos/Prestamos/settings.py
+Prestamos.urls|/home/python/workspace/curso-python-django/semana 4/workspace/Prestamos/Prestamos/urls.py
+Prestamos.wsgi|/home/python/workspace/curso-python-django/semana 4/workspace/Prestamos/Prestamos/wsgi.py
+__init__|/home/python/workspace/curso-python-django/semana 4/workspace/Prestamos/__init__.py
+apps.ControlPrestamo.__init__|/home/python/workspace/curso-python-django/semana 4/workspace/Prestamos/apps/ControlPrestamo/__init__.py
+apps.ControlPrestamo.admin|/home/python/workspace/curso-python-django/semana 4/workspace/Prestamos/apps/ControlPrestamo/admin.py
+apps.ControlPrestamo.apps|/home/python/workspace/curso-python-django/semana 4/workspace/Prestamos/apps/ControlPrestamo/apps.py
+apps.ControlPrestamo.models|/home/python/workspace/curso-python-django/semana 4/workspace/Prestamos/apps/ControlPrestamo/models.py
+apps.ControlPrestamo.tests|/home/python/workspace/curso-python-django/semana 4/workspace/Prestamos/apps/ControlPrestamo/tests.py
+apps.ControlPrestamo.views|/home/python/workspace/curso-python-django/semana 4/workspace/Prestamos/apps/ControlPrestamo/views.py
+apps.__init__|/home/python/workspace/curso-python-django/semana 4/workspace/Prestamos/apps/__init__.py
+manage|/home/python/workspace/curso-python-django/semana 4/workspace/Prestamos/manage.py
