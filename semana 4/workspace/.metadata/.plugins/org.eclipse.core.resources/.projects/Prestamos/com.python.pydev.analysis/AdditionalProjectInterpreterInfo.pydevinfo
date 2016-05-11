@@ -1,36 +1,39 @@
 -- VERSION_4
 -- START DISKCACHE_2
-/home/python/workspace/curso-python-django/semana 4/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/Prestamos/com.python.pydev.analysis/v2_indexcache
-__init__|1462816799000000000|/home/python/workspace/curso-python-django/semana 4/workspace/Prestamos/__init__.py
-apps.__init__|1462816775000000000|/home/python/workspace/curso-python-django/semana 4/workspace/Prestamos/apps/__init__.py
-apps.ControlPrestamo.tests|1462816335000000000|/home/python/workspace/curso-python-django/semana 4/workspace/Prestamos/apps/ControlPrestamo/tests.py
-apps.ControlPrestamo.admin|1462816335000000000|/home/python/workspace/curso-python-django/semana 4/workspace/Prestamos/apps/ControlPrestamo/admin.py
-apps.ControlPrestamo.models|1462816335000000000|/home/python/workspace/curso-python-django/semana 4/workspace/Prestamos/apps/ControlPrestamo/models.py
-Prestamos.urls|1462816335000000000|/home/python/workspace/curso-python-django/semana 4/workspace/Prestamos/Prestamos/urls.py
-Prestamos.settings|1462816335000000000|/home/python/workspace/curso-python-django/semana 4/workspace/Prestamos/Prestamos/settings.py
-manage|1462816335000000000|/home/python/workspace/curso-python-django/semana 4/workspace/Prestamos/manage.py
-Prestamos.wsgi|1462816335000000000|/home/python/workspace/curso-python-django/semana 4/workspace/Prestamos/Prestamos/wsgi.py
-apps.ControlPrestamo.views|1462816335000000000|/home/python/workspace/curso-python-django/semana 4/workspace/Prestamos/apps/ControlPrestamo/views.py
-Prestamos.__init__|1462816808000000000|/home/python/workspace/curso-python-django/semana 4/workspace/Prestamos/Prestamos/__init__.py
-apps.ControlPrestamo.apps|1462816335000000000|/home/python/workspace/curso-python-django/semana 4/workspace/Prestamos/apps/ControlPrestamo/apps.py
-apps.ControlPrestamo.__init__|1462816841000000000|/home/python/workspace/curso-python-django/semana 4/workspace/Prestamos/apps/ControlPrestamo/__init__.py
+/home/khristop/curso/curso-python-django/semana 4/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/Prestamos/com.python.pydev.analysis/v2_indexcache
+apps.ControlPrestamo.models|1462918358424429000|/home/khristop/curso/curso-python-django/semana 4/workspace/Prestamos/apps/ControlPrestamo/models.py
+apps.ControlPrestamo.views|1462922735312529000|/home/khristop/curso/curso-python-django/semana 4/workspace/Prestamos/apps/ControlPrestamo/views.py
+apps.ControlPrestamo.urls|1462921768712507000|/home/khristop/curso/curso-python-django/semana 4/workspace/Prestamos/apps/ControlPrestamo/urls.py
+Prestamos.__init__|1462918358424429000|/home/khristop/curso/curso-python-django/semana 4/workspace/Prestamos/Prestamos/__init__.py
+Prestamos.settings|1462918358424429000|/home/khristop/curso/curso-python-django/semana 4/workspace/Prestamos/Prestamos/settings.py
+apps.ControlPrestamo.apps|1462918358424429000|/home/khristop/curso/curso-python-django/semana 4/workspace/Prestamos/apps/ControlPrestamo/apps.py
+apps.__init__|1462918358424429000|/home/khristop/curso/curso-python-django/semana 4/workspace/Prestamos/apps/__init__.py
+manage|1462918358424429000|/home/khristop/curso/curso-python-django/semana 4/workspace/Prestamos/manage.py
+apps.ControlPrestamo.tests|1462918358424429000|/home/khristop/curso/curso-python-django/semana 4/workspace/Prestamos/apps/ControlPrestamo/tests.py
+Prestamos.wsgi|1462918358424429000|/home/khristop/curso/curso-python-django/semana 4/workspace/Prestamos/Prestamos/wsgi.py
+apps.ControlPrestamo.__init__|1462918358424429000|/home/khristop/curso/curso-python-django/semana 4/workspace/Prestamos/apps/ControlPrestamo/__init__.py
+apps.ControlPrestamo.admin|1462918358424429000|/home/khristop/curso/curso-python-django/semana 4/workspace/Prestamos/apps/ControlPrestamo/admin.py
+__init__|1462918358424429000|/home/khristop/curso/curso-python-django/semana 4/workspace/Prestamos/__init__.py
+Prestamos.urls|1462929199452676000|/home/khristop/curso/curso-python-django/semana 4/workspace/Prestamos/Prestamos/urls.py
 -- END DISKCACHE
 -- START DICTIONARY
-11
-9=TipoArticulo
-10=ControlprestamoConfig
-7=Estudiante
-6=DetallePrestamo
-5=Prestamos.urls
+13
+9=Articulo
+11=DetallePrestamo
 3=apps.ControlPrestamo.models
+5=apps.ControlPrestamo.views
+12=ControlprestamoConfig
+7=apps.ControlPrestamo.urls
 1=Prestamos.settings
-8=Articulo
-2=Prestamos.wsgi
-11=DetallePrestamo.Meta
 4=apps.ControlPrestamo.apps
+8=TipoArticulo
+10=Estudiante
+2=Prestamos.wsgi
+13=DetallePrestamo.Meta
+6=Prestamos.urls
 -- END DICTIONARY
 -- START TREE 1
-22
+23
 all|1|ALLOWED_HOSTS!11@
 app|1|application!19@
 art|1|Articulo!25@
@@ -44,32 +47,33 @@ est|1|Estudiante!25@
 ins|1|INSTALLED_APPS!11@
 lan|1|LANGUAGE_CODE!11@
 mid|1|MIDDLEWARE_CLASSES!11@
+pri|1|principal!42@
 roo|1|ROOT_URLCONF!11@
 sec|1|SECRET_KEY!11@
 sta|1|STATIC_URL!11@
 tem|1|TEMPLATES!11@
 tim|1|TIME_ZONE!11@
 tip|1|TipoArticulo!25@
-url|1|urlpatterns!43@
-use|3|USE_TZ!11@USE_L10N!11@USE_I18N!11@
+url|2|urlpatterns!51@urlpatterns!59@
+use|3|USE_TZ!11@USE_I18N!11@USE_L10N!11@
 wsg|1|WSGI_APPLICATION!11@
 -- END TREE
 -- START TREE 2
 16
-__u|4|__unicode__!6&26@__unicode__!7&26@__unicode__!8&26@__unicode__!9&26@
-art|1|articulo!6&27@
-car|1|carnet!7&27@
-cod|1|codigo!8&27@
-des|2|descripcion!8&27@descrpcion!9&27@
-est|1|estado!6&27@
-fec|1|fecha!6&27@
-met|1|Meta!6&25@
-mot|1|motivo!6&27@
-nam|1|name!10&35@
-nom|3|nombre!7&27@nombre!8&27@nombre!9&27@
-obs|1|observaciones!8&27@
-pre|1|prestamo_id!6&27@
-tip|1|tipo!8&27@
-uni|1|unique_together!11&27@
-usu|1|usuario!6&27@
+__u|4|__unicode__!8&26@__unicode__!9&26@__unicode__!10&26@__unicode__!11&26@
+art|1|articulo!11&27@
+car|1|carnet!10&27@
+cod|1|codigo!9&27@
+des|2|descripcion!9&27@descrpcion!8&27@
+est|1|estado!11&27@
+fec|1|fecha!11&27@
+met|1|Meta!11&25@
+mot|1|motivo!11&27@
+nam|1|name!12&35@
+nom|3|nombre!8&27@nombre!9&27@nombre!10&27@
+obs|1|observaciones!9&27@
+pre|1|prestamo_id!11&27@
+tip|1|tipo!9&27@
+uni|1|unique_together!13&27@
+usu|1|usuario!11&27@
 -- END TREE

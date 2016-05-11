@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Sistema de control de Prestamos</h1>
+      <p>Sistema diseñado para el manejo y control de los articulos en la ASEISI, se registraran todos los prestamos que hayan sido solicitados de una forma ordenada y eficiente, bla, bla, bla......</p>
+      <p><a class="btn btn-primary btn-lg" href="#" role="button">Saber mas &raquo;</a></p>
+      <hr>
+      <div class="row">
+        <div class="col-md-4">
+          <a class="btn btn-lg btn-success" href="{% url 'listaE' %}">Lista de estudantes</a>
+        </div>
+        <div class="col-md-4">
+          <a class="btn btn-lg btn-danger" href="#">Lista de articulos</a>
+        </div>
+        <div class="col-md-4">
+          <a class="btn btn-lg btn-warning" href="#">Lista de prestamos</a>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

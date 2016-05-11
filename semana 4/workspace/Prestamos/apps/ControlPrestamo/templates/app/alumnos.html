@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+  <div class="jumbotron">
+    <div class="container">
+      <h2>Lista de Alumnos que han registrado prestamos:</h2>
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>Carnet</th>
+            <th>Nombre</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for al in alumnos %}
+          <tr>
+            <td>{{ al.carnet }}</td>
+            <td>{{ al.nombre }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      <hr>
+      <a class="btn btn-lg btn-danger" href="{% url 'main' %}">Ir a la principal</a>
+    </div>
+  </div>
+{% endblock %}
