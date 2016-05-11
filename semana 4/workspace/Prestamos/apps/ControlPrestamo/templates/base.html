@@ -26,7 +26,9 @@
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             {% if request.user.is_authenticated %}
-              <h4> {{ request.user.username }}</h4>
+            <div class="navbar-form navbar-right">
+              <h4><span class="label label-success"> {{ request.user.username }}<span></h4>
+            </div>
             {% else %}
               <form class="navbar-form navbar-right" role="form" method="post" action="">
                 {% csrf_token %}
