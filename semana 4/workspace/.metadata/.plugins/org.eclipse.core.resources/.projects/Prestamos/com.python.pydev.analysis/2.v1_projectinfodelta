@@ -1,1 +1,5 @@
-DELSTRapps.ControlPrestamo.urls
+INSTUPapps.ControlPrestamo.urls
+/home/python/curso-python-django/semana 4/workspace/Prestamos/apps/ControlPrestamo/urls.py
+INFOS:&&3|1|2|0
+urlpatterns=1
+apps.ControlPrestamo.urls=2

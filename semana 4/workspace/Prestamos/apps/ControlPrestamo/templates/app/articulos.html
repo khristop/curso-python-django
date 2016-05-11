@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block title %}
+  Articulos
+{% endblock %}
+{% block content %}
+<div class="jumbotron">
+
+<div class="container">
+  <h4>Esta es la lista de articulos</h4>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>
+          nombre
+        </th>
+        <th>
+          codigo
+        </th>
+        <th>
+          descripcion
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for arti in articulos %}
+      <tr>
+        <th>
+          {{ arti.nombre }}
+        </th>
+        <th>
+          {{ arti.codigo }}
+        </th>
+        <th>
+          {{ arti.descripcion }}
+        </th>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  <a class="btn btn-lg btn-info" href="{% url 'main' %}"> Regresar al principal</a>
+</div>
+</div>
+{% endblock %}

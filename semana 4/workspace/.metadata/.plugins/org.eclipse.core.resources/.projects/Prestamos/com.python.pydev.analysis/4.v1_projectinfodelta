@@ -1,1 +1,7 @@
-DELSTRapps.ControlPrestamo.urls
+INSTUPapps.ControlPrestamo.views
+/home/python/curso-python-django/semana 4/workspace/Prestamos/apps/ControlPrestamo/views.py
+INFOS:&&2|1|2|0&&2|3|2|0&&2|4|2|0
+principal=1
+alumnos=3
+articulos=4
+apps.ControlPrestamo.views=2

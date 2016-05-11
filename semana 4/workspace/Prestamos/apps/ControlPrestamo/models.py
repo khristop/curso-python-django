@@ -42,4 +42,4 @@ class DetallePrestamo(models.Model):
         unique_together = (('articulo', 'usuario'),)
         
     def __unicode__(self):
-        return "%s - %s" % (self.articulo,self.nombre)
+        return "%s - %s" % (self.articulo,self.usuario)
